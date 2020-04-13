@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'sinatra'
+gem 'capybara'
+gem 'selenium-webdriver'
+
 group :test do
   gem 'rspec'
   gem 'rubocop', '0.79.0'
